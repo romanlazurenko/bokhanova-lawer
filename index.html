@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Адвокат - Консультации по украинскому и международному праву. Специализация на вопросах миграции, проживания, гражданства, виз и воссоединения семьи в Германии.">
+  <meta name="keywords"
+    content="адвокат, юрист, международное право, миграция, гражданство, визы, Германия, воссоединение семьи">
+  <meta name="author" content="Your Name">
+  <meta property="og:title" content="Адвокат - Международное право и миграция">
+  <meta property="og:description"
+    content="Консультации по украинскому и международному праву. Специализация на вопросах миграции, проживания, гражданства, виз и воссоединения семьи в Германии.">
+  <meta property="og:image" content="/assets/logo.png">
+  <meta property="og:url" content="https://your-domain.com">
+  <title>Адвокат - Международное право и миграция</title>
+  <link rel="icon" type="image/png" href="/assets/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="header-container">
+        <div class="header-logo">
+          <a href="#hero">LOGO</a>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-links">
+            <li><a href="#about" data-i18n="nav.about">Обо мне</a></li>
+            <li><a href="#services" data-i18n="nav.services">Услуги</a></li>
+            <li><a href="#how-i-work" data-i18n="nav.how-i-work">Как я работаю</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Записаться</a></li>
+          </ul>
+        </nav>
+        <div class="header-contacts">
+          <a href="https://wa.me/4915772262253" class="header-contact" aria-label="WhatsApp">
+            <img src="/assets/icons/whatsapp.svg" alt="WhatsApp">
+          </a>
+          <a href="tel:+4915772262253" class="header-contact" aria-label="Phone">
+            <img src="/assets/icons/phone.svg" alt="Phone">
+          </a>
+          <div class="header-contact">
+            <a href="tel:+4915772262253" class="phone-number">+49 157 722 622 53</a>
+          </div>
+        </div>
+        <div class="header-dropdown">
+          <select id="language-select" class="custom-select-root">
+            <option value="ru">RU</option>
+            <option value="de">DE</option>
+            <option value="ua">UA</option>
+          </select>
+        </div>
+        <button class="burger" id="burger-btn" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <nav class="mobile-nav" id="mobile-nav">
+      <ul>
+        <li><a href="#about" data-i18n="nav.about">Обо мне</a></li>
+        <li><a href="#services" data-i18n="nav.services">Услуги</a></li>
+        <li><a href="#how-i-work" data-i18n="nav.how-i-work">Как я работаю</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Записаться</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="tel:+4915772262253"><img src="/assets/icons/phone.svg" alt="Phone"></a>
+        <span>+49 157 722 622 53</span>
+      </div>
+    </nav>
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="main-wrapper">
+          <div class="left-wrapper"></div>
+          <div class="right-wrapper"></div>
+        </div>
+        <div class="hero-section-container">
+          <div class="hero-section-content">
+            <div class="hero-section-content-left">
+              <div class="hero-section-content-left-container">
+                <img class="hero-section-content-left-logo" src="/assets/logo.png" alt="Логотип адвоката">
+                <h1 class="hero-section-content-left-title header-style" data-i18n="hero.title">АДВОКАТ</h1>
+                <p class="hero-section-content-left-description" data-i18n="hero.description">Консультации по украинскому и международному праву — в
+                  том числе по вопросам миграции, проживания, гражданства, виз и воссоединения семьи в Германии</p>
+                <button class="hero-section-content-left-button" data-i18n="hero.contact">
+                  <span>Записаться</span>
+                </button>
+                <div class="hero-section-content-email">
+                  <img src="/assets/icons/mail.svg" alt="Email">
+                  <a href="mailto:info@advokat-kiev.com">info@advokat-kiev.com</a>
+                </div>
+              </div>
+              <div class="hero-section-content-right">
+                <div class="hero-section-content-right-image">
+                  <img src="/assets/main.jpg" alt="Фото адвоката">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="main-wrapper"></div>
+        <div class="about-section-container">
+          <div class="about-section-content">
+            <h2 class="header-style about-section-content-title " data-i18n="about.title">ОБО МНЕ</h2>
+          </div>
+          <div class="about-section-grid">
+            <div class="grid-item item1">
+              <img src="/assets/vesi.png" alt="Весы - символ правосудия" class="about-img1">
+              <div class="top-text">
+                <p data-i18n="about.experience">Более 10 лет юридической практики.</p>
+                <p data-i18n="about.focus">Опора на точность, ответственность и результат.</p>
+              </div>
+            </div>
+            <div class="grid-item item2">
+              <div class="top-text">
+                <p data-i18n="about.activity">Профессиональная деятельность в Германии и Украине</p>
+              </div>
+            </div>
+            <div class="grid-item item3">
+              <img src="/assets/molotok.png" alt="Молоток судьи" class="about-img2">
+              <div class="grid-item-title" data-i18n="about.registration">Адвокат, зарегистрированная в Адвокатской палате Мюнхена
+                (Rechtsanwaltskammer München)</div>
+              <div class="grid-item-text">
+                <p data-i18n="about.support">Правовая поддержка для украинских и русскоязычных клиентов по вопросам миграции, виз,
+                  проживания, гражданства и адаптации в Германии.</p>
+              </div>
+            </div>
+            <div class="grid-item item4">
+              <div class="bottom-text">
+                <p data-i18n="about.languages">Консультации на русском, украинском и немецком языках.</p>
+                <p data-i18n="about.attention">Каждое дело сопровождается с максимальной вовлечённостью и вниманием к деталям.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services-section">
+        <div class="main-wrapper">
+          <div class="services-section-container">
+            <div class="services-section-content">
+              <h2 class="header-style services-section-content-title" data-i18n="services.title">УСЛУГИ</h2>
+            </div>
+            <div class="services-section-grid">
+              <div class="service-block">
+                <div class="service-block-header block-germany-header" data-i18n="services.germany.title">Консультации и сопровождение в Германии</div>
+                <ul class="service-block-list block-germany-list" data-i18n="services.germany.items">
+                  <li><img src="assets/icons/check-primary.svg" alt="check" class="check-icon" />Визы и разрешения на
+                    проживание</li>
+                  <li><img src="assets/icons/check-primary.svg" alt="check" class="check-icon" />Воссоединение семьи</li>
+                  <li><img src="assets/icons/check-primary.svg" alt="check" class="check-icon" />Гражданство и
+                    натурализация</li>
+                  <li><img src="assets/icons/check-primary.svg" alt="check" class="check-icon" />Свобода передвижения в ЕС
+                  </li>
+                  <li><img src="assets/icons/check-primary.svg" alt="check" class="check-icon" />Сопровождение и
+                    представительство интересов в посольствах, консульствах и государственных учреждениях Германии</li>
+                </ul>
+              </div>
+              <div class="service-block">
+                <div class="service-block-header block-ukraine-header" data-i18n="services.ukraine.title">Юридическая поддержка в Украине</div>
+                <ul class="service-block-list block-ukraine-list" data-i18n="services.ukraine.items">
+                  <li><img src="assets/icons/check-secondary.svg" alt="check" class="check-icon" />Представительство и
+                    защита интересов в судах</li>
+                  <li><img src="assets/icons/check-secondary.svg" alt="check" class="check-icon" />Составление заявлений,
+                    претензий, договоров, расписок и других правовых документов</li>
+                  <li><img src="assets/icons/check-secondary.svg" alt="check" class="check-icon" />Консультации по
+                    семейным, имущественным и хозяйственным вопросам по украинскому праву</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+
+      <section id="how-i-work" class="how-i-work-section">
+        <div class="main-wrapper">
+          <div class="how-i-work-section-container">
+            <div class="how-i-work-section-content">
+              <h2 class="header-style how-i-work-section-content-title" data-i18n="how-i-work.title">КАК Я РАБОТАЮ</h2>
+            </div>
+            <div class="how-i-work-section-grid">
+              <div class="how-i-work-item item1">
+                <div class="how-i-work-circle"><span>01</span></div>
+                <div class="how-i-work-desc" data-i18n="how-i-work.items.0">Личный подход и быстрая обратная связь</div>
+              </div>
+              <div class="how-i-work-item item2">
+                <div class="how-i-work-circle"><span>02</span></div>
+                <div class="how-i-work-desc" data-i18n="how-i-work.items.1">Отвечаю на запросы в течение 24 часов по будням</div>
+              </div>
+              <div class="how-i-work-item item3">
+                <div class="how-i-work-circle"><span>03</span></div>
+                <div class="how-i-work-desc" data-i18n="how-i-work.items.2">Гибкость и внимание к деталям</div>
+              </div>
+              <div class="how-i-work-item item4">
+                <div class="how-i-work-circle"><span>04</span></div>
+                <div class="how-i-work-desc" data-i18n="how-i-work.items.3">Учитываю особенности вашей ситуации — от первой консультации до последнего документа</div>
+              </div>
+              <div class="how-i-work-item item5">
+                <div class="how-i-work-circle"><span>05</span></div>
+                <div class="how-i-work-desc" data-i18n="how-i-work.items.4">Прозрачные условия</div>
+              </div>
+              <div class="how-i-work-item item6">
+                <div class="how-i-work-circle"><span>06</span></div>
+                <div class="how-i-work-desc" data-i18n="how-i-work.items.5">Стоимость услуг обсуждается заранее</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+      <section class="contact-section">
+        <div class="main-wrapper">
+          <div class="contact-section-container">
+            <div class="contact-header">
+              <h2 class="header-style contact-header-title" data-i18n="contact.title">ЗАПИСАТЬСЯ</h2>
+              <span class="contact-header-title-span" data-i18n="contact.subtitle">на консультацию</span>
+            </div>
+            <div class="mob-image">
+              <img src="/assets/contact-bg-mob.jpg" alt="Контакт">
+            </div>
+            <div class="contact-grid">
+              <div class="item1">
+                <p class="contact-form-description" data-i18n="contact.question">
+                  Хотите уверенности в вашем процессе?
+                </p>
+                <div class="contact-form">
+                  <p class="contact-form-title" data-i18n="contact.form.title">Заявка для обратной связи</p>
+                  <input type="text" placeholder="Имя" data-i18n-placeholder="contact.form.firstname">
+                  <input type="text" placeholder="Фамилия" data-i18n-placeholder="contact.form.lastname">
+                  <input type="tel" placeholder="Номер телефона" data-i18n-placeholder="contact.form.phone">
+                  <input type="checkbox" id="checkbox" class="checkbox">
+                  <label for="checkbox" class="checkbox-label">
+                    <span class="checkbox-text" data-i18n="contact.form.privacy">Я даю согласие на обработку моих персональных данных в соответствии с Политикой конфиденциальности</span>
+                  </label>
+                  <button class="contact-form-button" data-i18n="contact.form.submit">Записаться</button>
+                </div>
+              </div>
+              <div class="item2">
+              </div>
+              <div class="item3">
+                <div class="contact-icon-circle">
+                  <img src="/assets/phonebook.png" alt="Icon">
+                </div>
+                <p class="contact-form-text" data-i18n="contact.description">
+                  Свяжитесь со мной для первичной консультации. Мы обсудим вашу ситуацию и составим чёткий план действий.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="/privacy-policy" class="footer-link">
+        2025 | <span data-i18n="footer.privacy">Политика конфиденциальности</span>
+      </a>
+    </footer>
+  </div>
+  <script src="/js/translations.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
